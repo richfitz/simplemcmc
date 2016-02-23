@@ -2,9 +2,9 @@
 
 > Simple MCMC With Templates
 
-This is an example of using templates to make a function that needs functions (e.g. an MCMC sampler, optimiser, etc) work easily enough in R + Rcpp.  See the demo package at [tests/testthat/demo](tests/testthat/demo) for use in a package (the important bit is the `LinkingTo` field in the [DESCRIPTION](tests/testthat/demo/DESCRIPTION).  The package also has the same example in `src` and `R` (which would be the model if you had a sampler that you wanted to use multiple times within a single package).
+**This is not meant to be used for anything.  This is just to illustrate how one might use C++ templates to avoid hassles with using function pointers.**
 
-Simple MCMC With Templates
+This is an example of using templates to make a function that needs functions (e.g. an MCMC sampler, optimiser, etc) work easily enough in R + Rcpp.  See the demo package at [tests/testthat/demo](tests/testthat/demo) for use in a package (the important bit is the `LinkingTo` field in the [DESCRIPTION](tests/testthat/demo/DESCRIPTION).  The package also has the same example in `src` and `R` (which would be the model if you had a sampler that you wanted to use multiple times within a single package).
 
 ## Installation
 
