@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^Makefile$
+^README.Rmd$
+^.travis.yml$
+^appveyor.yml$
+^tests/testthat/demo/src/.*\.o$
+^tests/testthat/demo/src/.*\.so$
+^tests/testthat/demo/src/.*\.dll$
